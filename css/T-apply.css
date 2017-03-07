@@ -71,7 +71,7 @@ float:left;
 }
 .apl-content .left{
 width:920px;
-height:1000px;
+
 margin-top:40px;
 color:#666;
 
@@ -373,12 +373,12 @@ color:#ff3300;
  border-top:none;
  border-radius:5px;
 }
-.apl-content .btn{
+.btm .btn{
 padding-left:338px;
  margin-top:13px;
  margin-bottom:300px;
 }
-.apl-content .btn span{
+.btm .btn span{
  display:inline-block;
  width:120px;
  height:35px;
@@ -390,7 +390,7 @@ padding-left:338px;
  margin-right:10px;
  cursor:pointer;
 }
-.apl-content .btn .s3{
+.btm .btn .s3{
  background-color:#ff3300;
  margin-left:34px;
 }
@@ -450,4 +450,8 @@ width:155px;
 .right .ask .p4{
 margin-top:30px;
  margin-bottom:10px;
+}
+.btm{
+ height:200px;
+ background-color:#fff;
 }
