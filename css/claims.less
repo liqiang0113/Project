@@ -1,0 +1,161 @@
+.fl{float: left;}
+.bccc{border:1px solid #ccc;}
+h4,b{font-weight: normal;}
+i{font-style: normal;}
+.clearfix { zoom:1; }
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+.overText{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.claims-main{
+	width: 1360px;
+	height:880px;
+	margin:auto;
+	margin-top:10px;
+	color: #666;
+	font-size: 14px;
+	>div{
+		margin-right: 20px;	
+	}
+	.editor{
+		width:439px;
+		.bccc();
+		overflow: auto;
+		height: 100%;
+		.fl();
+		
+	}
+	.comparison-file{
+		width:320px;
+		.bccc();
+		height: 100%;
+		.fl();
+		margin-right: 20px;
+		overflow: auto;
+		padding:0 20px;
+		>h4{
+			font-size: 16px;
+			border-bottom: 1px solid #ccc;
+			margin:25px 0;
+		}
+		ul{
+			width:313px;
+			li span{
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				color: #fff;
+				.fl();
+				background: #233645;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 20px;
+				margin-right: 10px;
+				margin-top: 10px;
+			}
+			li div{
+				width:280px;
+				.fl();
+				line-height: 36px;
+			}
+		}
+	}
+	.mate-height{
+		width:320px;
+		height: 100%;
+		.fl();
+		.mate-word{
+			padding:0 20px;
+			height:422px;
+			.bccc();
+			margin-bottom: 20px;
+			>h4{
+				font-size: 16px;
+				border-bottom: 1px solid #ccc;
+				margin:25px 0;
+			}
+			ul{
+				padding-left:15px;
+				li{
+					margin-bottom: 14px;
+					height:16px;
+					b{
+						.fl();
+					}
+					span{
+						width:57px;
+						height:16px;
+						margin-right:26px;
+						.overText();
+						.fl();
+					}
+					i{
+						width:40px;
+						height:16px;
+						margin-right:20px;
+						.overText();
+						.fl();
+					}
+					button{
+						width:84px;
+						height:16px;
+						font-size: 14px;
+						.fl();
+						border: none;
+						background: none;
+						color: #666;
+					}
+				}
+			}
+			p{
+				height:30px;
+				margin-left:15px;
+				margin-top: 17px;
+				
+				input{
+					width: 180px;
+					height:30px;
+					.bccc();
+					font-size: 12px;
+					text-indent: 5px;
+				}
+				a{
+					display: inline-block;
+					width:60px;
+					height:28px;
+					background: #ee4618;
+					border-radius: 5px;
+					text-align: center;
+					line-height: 28px;
+					color:#fff;
+					cursor: pointer;
+				}
+			}
+		}
+		.mate-seem{
+			padding:0 20px;
+			height:420px;
+			.bccc();
+			>h4{
+				font-size: 16px;
+				border-bottom: 1px solid #ccc;
+				margin:25px 0;
+			}
+			>p{
+				font-size:16px;
+				margin-bottom: 20px;
+				span{
+					margin-left:50px;
+				}
+			}
+			ul li{
+				width: 244px;
+				height: 16px;
+				.overText();
+			}
+		}
+	}
+	
+}
