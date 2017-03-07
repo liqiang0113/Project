@@ -1,0 +1,99 @@
+.instruction {
+  width: 1360px;
+  height: 940px;
+  margin: 25px auto;
+  ul {
+    float: left;
+  }
+  .instruction_l {
+    width: 620px;
+    height: 100%;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+  }
+  .instruction_r {
+    width: 530px;
+    div{
+      border-top: 1px solid #ccc;
+      padding-top: 25px;
+      padding-left: 10px;
+      margin-top: 5px;
+    }
+    li {
+      width: 490px;
+      border: 1px solid #ccc;
+      padding: 30px 20px;
+      span {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+        color: #666;
+        border-bottom: 1px solid #666666;
+      }
+    }
+    .instruction_T {
+      height: 340px;
+      margin-bottom: 25px;
+      div{
+        margin-top:5px;
+        height: 250px;
+        padding: 20px 10px ;
+        line-height: 30px;
+        font-size: 14px;
+        overflow-y: auto;
+      }
+    }
+    .instruction_B {
+      height: 460px;
+      em {
+        color: #ff3300;
+        font-style: normal;
+        font-size: 12px;
+      }
+      div{
+
+        p {
+          width: 450px;
+          height: 30px;
+          line-height: 30px;
+          span{
+          border-bottom: none;
+          padding: 0;
+        }
+          &.tittle span{
+            padding: 0;
+            &.name{
+              margin-left: 60px;
+              margin-right: 185px;
+            }
+          }
+
+          i{
+            font-style: normal;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background: #004b92;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+            margin-right: 10px;
+          }
+          &.content{
+            .method{
+              float: right;
+              height: 30px;
+              width: 150px;
+              margin-right: 40px;
+              white-space:nowrap;
+              text-overflow:ellipsis;
+              -o-text-overflow:ellipsis;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+    }
+  }
+}
