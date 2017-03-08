@@ -138,7 +138,7 @@ text-align:center;
 height:28px;
 }
 .inventor table td span{
-width:30px;
+width:42px;
 display:inline-block;
 color:#ff3300;
 cursor:pointer;
@@ -386,6 +386,11 @@ padding-left:10px;
 height:48px;
 margin-top:21px;
 }
+.more .p1 img{
+position:relative;
+top:3px;
+margin-right:4px;
+}
 .more .p1{
 line-height:48px;
 width:417px;
@@ -401,7 +406,7 @@ cursor:pointer;
 }
 .btm .btn{
 padding-left:338px;
-margin-top:13px;
+margin-top:22px;
 margin-bottom:300px;
 }
 .btm .btn span{
