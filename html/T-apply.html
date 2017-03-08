@@ -43,24 +43,24 @@
 <div class="apl-content area clearfix">
     <div class="left">
         <div class="pat-name">
-            <p class="p1">专利名称</p>
+            <p class="p1"><span class="und">专利名称</span></p>
             <p class="p2">
                 专利名称：<input type="text"/>
             </p>
         </div>
         <!--发明人-->
         <div class="inventor">
-            <p class="p1"><span class="left1">发明人</span>
+            <p class="p1"><span class="left1 und">发明人</span>
                 <span class="right1"><img src="../imgs/T/T-add.png" width="14" alt="">&nbsp;添加</span></p>
             <table>
                 <thead>
                     <tr>
-                        <th width="80">序号</th>
-                        <th width="80">姓名</th>
-                        <th width="100">国籍或地区</th>
-                        <th width="200">居民身份证号</th>
-                        <th width="100">是否公布</th>
-                        <th width="240">操作</th>
+                        <th width="100">序号</th>
+                        <th width="100">姓名</th>
+                        <th width="140">国籍或地区</th>
+                        <th width="260">居民身份证号</th>
+                        <th width="120">是否公布</th>
+                        <th width="260">操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -85,17 +85,17 @@
         </div>
         <!--申请人-->
         <div class="inventor proposer">
-            <p class="p1"><span class="left1">申请人</span>
+            <p class="p1"><span class="left1 und">申请人</span>
                 <span class="right1"><img src="../imgs/T/T-add.png" width="14" alt="">&nbsp;添加</span></p>
             <table>
                 <thead>
                     <tr>
-                        <th width="80">序号</th>
-                        <th width="80">姓名</th>
-                        <th width="100">国籍或地区</th>
-                        <th width="200">居民身份证号</th>
-                        <th width="100">是否公布</th>
-                        <th width="240">操作</th>
+                        <th width="100">序号</th>
+                        <th width="100">姓名</th>
+                        <th width="140">国籍或地区</th>
+                        <th width="260">居民身份证号</th>
+                        <th width="120">是否公布</th>
+                        <th width="260">操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -121,7 +121,7 @@
         <!--联系人-->
         <div class="connector">
             <p class="p1">
-                <span class="left2">联系人</span>
+                <span class="left2 und">联系人</span>
                 <span class="right2"><img src="../imgs/T/T-leading-in.png" width="14" alt="">&nbsp;从申请人/发明人导入</span>
             </p>
             <div class="p2">
@@ -158,38 +158,51 @@
         </div>
         <!--提前公布-->
         <div class="publish">
-            <div class="p1">提前公布</div>
+            <div class="p1"><span class="und">提前公布</span></div>
             <div class="p2"><input type="checkbox"/>请求早日公布该专利申请。</div>
             <div class="p3">指：形式审查后即可公布在国家专利库（3个月左右），未选择则申请日起18个月后公开。</div>
         </div>
         <!--实审请求-->
         <div class="request">
-            <p class="p1">实审请求</p>
+            <p class="p1"><span class="und">实审请求</span></p>
             <p class="p2"><input type="checkbox"/>
                 根据<a href="#">专利法第 35 条</a>的规定，请求对上述专利申请进行实质审查。</p>
             <p class="p3"><input type="checkbox"/>申请人声明，放弃<a href="#">专利法实施细则第51条</a>规定的主动修改的权利。</p>
         </div>
+        <!--分案申请-->
+        <div class="distribution hide Tog">
+            <p class="p1">
+                <span class="und">分案申请</span>
+            </p>
+            <p class="p2">
+                原申请号：<input type="text"/>
+
+                原申请日： <input type="text"placeholder="年/月/日" />
+                针对的分案申请号：<input type="text" />
+            </p>
+        </div>
+
         <!--遗传资源-->
-        <div class="inherit">
-            <p class="p1">遗传资源</p>
+        <div class="inherit hide Tog">
+            <p class="p1"><span class="und">遗传资源</span></p>
             <p class="p2"><input type="checkbox"/>本专利申请涉及的发明创造是依赖于遗传资源完成的。</p>
         </div>
         <!--不丧失新颖性宽限期声明-->
-        <div class="state">
-            <p class="p1">不丧失新颖性宽限期声明</p>
+        <div class="state hide Tog">
+            <p class="p1"><span class="und">不丧失新颖性宽限期声明</span></p>
             <p class="p2"><input type="checkbox"/>请求早日公布该专利申请。</p>
             <p class="p3"><input type="checkbox"/>根据<a href="#">专利法第 35 条</a>的规定，请求对上述专利申请进行实质审查。</p>
             <p class="p4"><input type="checkbox"/>申请人声明，放弃<a href="#">专利法实施细则第51条</a>规定的主动修改的权利。</p>
         </div>
         <!--同日申请-->
-        <div class="same-day">
-            <p class="p1">同日申请</p>
+        <div class="same-day hide Tog">
+            <p class="p1"><span class="und">同日申请</span></p>
             <p class="p2"><input type="checkbox"/>声明本申请人对同样的发明创造在申请本发明专利的同日申请了实用新型专利。</p>
         </div>
         <!--要求优先权声明-->
-        <div class="prior">
+        <div class="prior hide Tog">
             <p class="p1">
-                要求优先权声明
+                <span class="und">要求优先权声明</span>
             </p>
             <p class="p2">
                 原受理机构名称：
@@ -243,5 +256,6 @@
     </div>
 </div>
 <script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/T-apply.js"></script>
 </body>
 </html>
