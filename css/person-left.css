@@ -37,3 +37,22 @@ i{font-style:normal}b{font-weight:normal}a{color:#666;text-decoration:none}input
 .act_left dd a:hover,.act_left dd a.hover{
     color:#fa104a;
 }
+a{
+    color:#666;
+}
+.clearfix:after{
+    display:block;
+    content:"";
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+body{
+    background-color:#eff3f5;
+    color:#666;
+    font-family:"微软雅黑";
+    font-size:14px;
+}

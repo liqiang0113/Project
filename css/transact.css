@@ -1,0 +1,32 @@
+.area12{
+width:1200px;
+margin:0 auto;
+}
+
+.tr-left{
+width:179px;
+height: 597px;
+background-color:#fff;
+}
+.transact-content>div{
+float:left;
+}
+.transact-content{
+margin-top:100px;
+}
+.tr-middle{
+margin-left:20px;
+}
+.tr-middle .tr-top{
+width:800px;
+height:180px;
+border:1px solid #ccc;
+background-color:#fff;
+}
+.tr-top .p1{
+margin-top:31px;
+margin-left:18px;
+}
+.tr-top .p1 input{
+
+}
