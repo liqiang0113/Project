@@ -4,16 +4,12 @@ i{font-style:normal}b{font-weight:normal}a{color:#666;text-decoration:none}input
     margin: auto;
     min-width: 1140px;
 }
-.act_safe{
-    margin-top: 20px;
-}
 /*左边*/
 .act_left{
     width: 137px;
     height: 500px;
-    border: 1px solid #c8d6e3;
-    background: #ecf0f6;
-    color: #333;
+    border: 1px solid #cccccc;
+    background: #fff;
     font-size: 16px;
     float: left;
 }
@@ -31,9 +27,11 @@ i{font-style:normal}b{font-weight:normal}a{color:#666;text-decoration:none}input
     text-align: center;
 }
 .act_left dd a{
+	display: inline-block;
     font-size: 14px;
     color: #666;
 }
 .act_left dd a:hover,.act_left dd a.hover{
     color:#fa104a;
+    background: #f5f5f5;
 }
