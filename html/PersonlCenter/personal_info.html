@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/personal_info.css"/>
+</head>
+<body>
+    <div class="a_wrap act_safe clearfix">
+        <!--左边-->
+        <div class="act_left">
+            <dl>
+                <dt>服务中心</dt>
+                <dd><a href="order.html">我的申报单</a></dd>
+                <dd><a href="customer.html">我的顾问</a></dd>
+            </dl>
+            <dl class="no">
+                <dt>账户信息</dt>
+                <dd><a class="hover" href="personal_info.html">个人信息</a></dd>
+                <dd><a href="act_safe.html">账户安全</a></dd>
+            </dl>
+        </div>
+        <!--右边-->
+        <div class="info_right">
+        	<h3>个人信息</h3>
+        	<form action="" method="post">
+        		<ul>
+        			<li>
+        				<span>用户名：</span>
+        				<input type="text" class="userName"/>
+        			</li>
+        			<li>
+        				<span>性别：</span>
+        				<input type="radio" name="sex" id="boy" value=""/><label for="boy">男</label>
+        				<input type="radio" name="sex" id="gril" value=""/><label for="gril">女</label>
+        			</li>
+        			<li class="birthday">
+        				<span>生日：</span>
+        				<select name="">
+        					<option value="">请选择</option>
+        				</select>
+        				<i>年</i>
+        				<select name="">
+        					<option value="">请选择</option>
+        				</select>
+        				<i>月</i>
+        				<select name="">
+        					<option value="">请选择</option>
+        				</select>
+        				<i>日</i>
+        			</li>
+        			<li>
+        				<span>所在地区：</span>
+        				<select name="">
+        					<option value="">中国大陆</option>
+        				</select>
+        				<select name="">
+        					<option value="">选择身份</option>
+        				</select>
+        				<select name="" class="mr">
+        					<option value="">选择城市</option>
+        				</select>
+        			</li>
+        			<li>
+        				<span>详细地址：</span>
+        				<input type="text" class="address"/>
+        			</li>
+        			<li class="identity clearfix">
+        				<span>您的身份： </span>
+        				<dl>
+        					<dd><input type="checkbox"  id="" value=""/><label for="">企业所有者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">企业管理人员</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">个体工商户</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">知识产权权利人</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">知识产权研究者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">业余爱好者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">学生</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for="">其他</label></dd>
+        				</dl>
+        			</li>
+        			<li class="no">
+        				<span>您的关注： </span>
+        				<input type="checkbox"  id="" value=""/><label for="">商标  </label>
+        				<input type="checkbox"  id="" value=""/><label for="">专利</label>
+        				<input type="checkbox"  id="" value=""/><label for="">版权</label>
+        			</li>
+        		</ul>
+        		<div class="submit_wrap">
+        			<input type="submit" value="保存" class="submit"/>
+        		</div>
+        		
+        	</form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/jquery-1.11.3.min.js"></script>
