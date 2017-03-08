@@ -2,7 +2,9 @@
 width:1360px;
 margin:0 auto;
 }
-
+input{
+ padding-left:10px;
+}
 a{
 color:#666;
 }
@@ -93,7 +95,7 @@ margin-left:50px;
 }
 .pat-name .p2 input{
 height:30px;
-width:755px;
+width:745px;
 border:1px dashed #ccc;
 }
 
@@ -177,7 +179,7 @@ top:2px;
  cursor:pointer;
 }
 .connector .p2 input{
- width:120px;
+ width:110px;
  height:30px;
  border:1px dashed #ccc;
 }
