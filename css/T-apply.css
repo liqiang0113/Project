@@ -209,7 +209,7 @@ top:2px;
 .publish{
  height:130px;
  background-color:#fff;
- border:1px dashed #ccc;
+ border:1px solid #ccc;
  margin-top:24px;
 }
 .publish .p2{
@@ -232,7 +232,7 @@ color:#ff3300;
 .request{
  height:160px;
  background-color:#fff;
- border:1px dashed #ccc;
+ border:1px solid #ccc;
  margin-top:17px;
 }
 .request .p1{
@@ -372,6 +372,7 @@ color:#ff3300;
  border:1px solid #ccc;
  border-top:none;
  border-radius:5px;
+ cursor:pointer;
 }
 .btm .btn{
 padding-left:338px;
