@@ -1,42 +1,44 @@
-.act_left{
-	height: 305px;
-}
-.act_safe{
-	margin-bottom: 60px;
-}
-/*右边*/
+/*å³è¾¹*/
 .info_right{
     float: left;
-    width:960px;
-    height: 305px;
+    width:800px;
+    height: 290px;
     padding:0 10px 0 30px;
     border:1px solid #d0d3d7;
-    border-left: none;
     font-size: 14px;
+    background: #fff;
 }
-.info_right>h3{
-    height: 51px;
-    border-bottom: 1px solid #c8d6e3;
-    line-height: 51px;
-    font-size: 16px;
-    color: #333;
+.info_right h3{
+	position: relative;
+	height: 51px;
+	 line-height: 51px;
+	 font-size: 16px;
+}
+.info_right h3 span{
+	display: inline-block;
+    border-bottom: 1px solid #666;
+    position: relative;
+    z-index: 1;
+    height: 40px;
+}
+.info_right h3 i{
+	display: inline-block;
+	width: 770px;
+	border-top:1px solid #ccc;
+	position: absolute;
+	top: 40px;
+	left: 30px;
 }
 .customer_info dd{
 	float: left;
 }
-.custorm_top{
-	border-right: 1px dashed #ccc;
-	margin-top: 57px;
-	    height: 160px;
-}
 .custorm_img{
-	width: 130px;
-	height: 135px;
-	border:1px solid #c8d6e3;
-	border-radius: 50%;
+	width: 150px;
+	height: 183px;
 	overflow: hidden;
 	position: relative;
-	margin:0 21px 0 0;
+	margin:20px 10px 0 0;
+	border: 1px solid #ccc;
 }
 .custorm_img img{
 	height: 100%;
@@ -48,33 +50,35 @@
 	margin: auto;
 }
 .customer_intro{
-	width: 435px;
-	padding: 0 25px;
+	width: 309px;
+	padding: 0 15px;
+	border-right: 1px solid #666;
+	 margin-top: 25px;
 }
 .customer_intro h4{
-	border-bottom: 1px dashed #c8d6e3;
-	height: 40px;
-	line-height: 58px;
-	    font-size: 16px;
-	    color: #fa104a;
+    font-size: 16px;
+    color: #fa104a;
 }
 .customer_intro p{
 	margin: 10px 0 8px 0;
-	font-size: 14px;
 	color: #333;
 }
-.customer_intro>div{
-	font-size: 12px;
+.customer-article{
+	width: 295px;
 	color: #666;
 	line-height: 20px;
-	margin-bottom: 21px;
-    overflow: hidden;
+	margin-bottom: 10px;
+    overflow: auto;
     position: relative;
-    max-height: 40px;
+    max-height: 60px;
+}
+.customer-servce{
+	width: 295px;
+	 overflow: hidden;
+	 height: 20px;
 }
 .customer_intro h5{
-	margin-top: 20px;
-	font-size: 20px;
+	font-size: 16px;
 	color: #333;
 }
 .customer_intro>div span{
@@ -84,49 +88,39 @@
 	float: left;
 }
 .customer_info dt ul{
-	margin-top: 57px;
-	width: 305px;
-	border-left: 1px dashed #c8d6e3;
+	margin-top: 40px;
+	width: 278px;
 	height: 162px;
 }
 .customer_info dt ul li{
-	padding-left: 25px;
+	    padding-left: 12px;
 	height: 25px;
 	margin-bottom: 15px;
 }
+.customer_info dt ul li:hover{
+	color: #ff0033;
+}
 .customer_info dt ul i{
 	display: inline-block;
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	margin-right: 9px;
-	background: url(../imgs/account/icon_1.png) no-repeat;
-	    position: relative;
-    top: 7px;
-}
-.customer_info dt ul li:hover{
-	color: #fa104a;
+	background: url(../imgs/icon_1.png) no-repeat;
+	position: relative;
+	top: 7px;
 }
 .customer_info dt ul i.phone{
-	background-position: -4px -9px;
-}
-.customer_info dt ul li:hover i.phone{
-	background-position: -4px -41px;
+	background-position: -1px -8px;
 }
 .customer_info dt ul i.fix_phone{
-	background-position: -35px -9px;
-}
-.customer_info dt ul li:hover i.fix_phone{
-	background-position:  -35px -41px;
+	background-position: -33px -8px;
 }
 .customer_info dt ul i.qq{
-	background-position: -68px -9px;
-}
-.customer_info dt ul li:hover i.qq{
-	background-position: -68px -41px;
+	background-position: -67px -7px;
 }
 .customer_info dt ul i.Email{
-	background-position: -99px -9px;
+	background-position: -96px -8px;
 }
-.customer_info dt ul li:hover i.Email{
-	background-position: -99px -41px;
+.customer_info dt ul  img{
+	width:62px;
 }

@@ -4,19 +4,33 @@
 /*右边*/
 .info_right{
     float: left;
-    width:960px;
-    height: 563px;
+    width:800px;
+    height: 642px;
     padding:0 10px 0 30px;
     border:1px solid #d0d3d7;
-    border-left: none;
     font-size: 14px;
+    background: #fff;
 }
-.info_right>h3{
-    height: 51px;
-    border-bottom: 1px solid #c8d6e3;
-    line-height: 51px;
-    font-size: 16px;
-    color: #333;
+.info_right h3{
+	position: relative;
+	height: 51px;
+	 line-height: 51px;
+	 font-size: 16px;
+}
+.info_right h3 span{
+	display: inline-block;
+    border-bottom: 1px solid #666;
+    position: relative;
+    z-index: 1;
+    height: 40px;
+}
+.info_right h3 i{
+	display: inline-block;
+	width: 770px;
+	border-top:1px solid #ccc;
+	position: absolute;
+	top: 40px;
+	left: 30px;
 }
 .info_right form{
 	width:655px;
