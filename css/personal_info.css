@@ -79,9 +79,6 @@
 	border: 1px dashed #ccc;
 	color: #666;
 }
-.info_right ul li .secondarys{
-	margin-right: 0;
-}
 .info_right ul li .countrys,
 .info_right ul li .primarys,
 .info_right ul li .secondarys{
@@ -89,7 +86,9 @@
 	margin-right: 15px;
 	position: relative;
     display: inline-block;
-    visibility: hidden;
+}
+.info_right ul li .secondarys{
+	margin-right: 0;
 }
 .info_right ul li .countrys div,
 .info_right ul li .primarys div,
