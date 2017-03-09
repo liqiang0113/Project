@@ -12,6 +12,10 @@
       我的顾问 customer.html
       个人信息 personal_info.html
       办理中业务 transact.html
+      未提交的业务 uncommitted.html
+      办理历史 transact_history.html
+
+
 
 
 
