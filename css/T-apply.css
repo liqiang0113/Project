@@ -126,22 +126,26 @@ margin-top:40px;
 margin-left:80px;
 }
 .inventor table th{
-border:1px #ccc dashed;
+/*border:1px #ccc dashed;*/
 text-align:center;
 height:28px;
 background-color:#f5f5f5;
 color:#386173;
 }
+.inventor table tr{
+	border:1px #ccc dashed;	
+}
 .inventor table td{
-border:1px #ccc dashed;
+/*border:1px #ccc dashed;*/
 text-align:center;
 height:28px;
 }
-.inventor table td span{
+.inventor table td a{
 width:42px;
 display:inline-block;
 color:#ff3300;
 cursor:pointer;
+text-decoration: underline;
 }
 .connector .p1{
 margin-top:24px;
