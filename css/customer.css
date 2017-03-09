@@ -1,29 +1,29 @@
 /*å³è¾¹*/
 .info_right{
-    float: left;
-    width:800px;
-    height: 290px;
-    padding:0 10px 0 30px;
-    border:1px solid #d0d3d7;
-    font-size: 14px;
-    background: #fff;
+	float: left;
+	width: 770px;
+	height: 290px;
+	padding: 0 15px 0;
+	border:1px solid #d0d3d7;
+	font-size: 14px;
+	background: #fff;
 }
 .info_right h3{
 	position: relative;
 	height: 51px;
-	 line-height: 51px;
-	 font-size: 16px;
+	line-height: 51px;
+	font-size: 16px;
 }
 .info_right h3 span{
 	display: inline-block;
-    border-bottom: 1px solid #666;
-    position: relative;
-    z-index: 1;
-    height: 40px;
+	border-bottom: 1px solid #666;
+	position: relative;
+	z-index: 1;
+	height: 40px;
 }
 .info_right h3 i{
 	display: inline-block;
-	width: 770px;
+	width: 720px;
 	border-top:1px solid #ccc;
 	position: absolute;
 	top: 40px;
@@ -51,13 +51,13 @@
 }
 .customer_intro{
 	width: 309px;
-	padding: 0 15px;
+	/* padding: 0 15px; */
 	border-right: 1px solid #666;
-	 margin-top: 25px;
+	margin-top: 25px;
 }
 .customer_intro h4{
-    font-size: 16px;
-    color: #fa104a;
+	font-size: 16px;
+	color: #fa104a;
 }
 .customer_intro p{
 	margin: 10px 0 8px 0;
@@ -68,14 +68,14 @@
 	color: #666;
 	line-height: 20px;
 	margin-bottom: 10px;
-    overflow: auto;
-    position: relative;
-    max-height: 60px;
+	overflow: auto;
+	position: relative;
+	max-height: 60px;
 }
 .customer-servce{
 	width: 295px;
-	 overflow: hidden;
-	 height: 20px;
+	overflow: hidden;
+	height: 20px;
 }
 .customer_intro h5{
 	font-size: 16px;
@@ -93,7 +93,7 @@
 	height: 162px;
 }
 .customer_info dt ul li{
-	    padding-left: 12px;
+	padding-left: 12px;
 	height: 25px;
 	margin-bottom: 15px;
 }
