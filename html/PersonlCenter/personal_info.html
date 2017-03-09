@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="../../css/reset.min.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/person-left.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/personal_info.css"/>
+    <script src="../../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../js/personal_info.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
     <div class="a_wrap act_safe clearfix">
@@ -16,15 +18,15 @@
                 	<span>在线办理大厅</span>
                 	<i></i>
                 </dt>
-                <dd><a href="order.html">我的咨询信息</a></dd>
-                <dd><a href="order.html">我的专利</a></dd>
-                <dd><a  href="customer.html">我的商标<span>(1)</span></a></dd>
+                <dd><a href="#">我的咨询信息</a></dd>
+                <dd><a href="#">我的专利</a></dd>
+                <dd><a  href="#">我的商标<span>(1)</span></a></dd>
                 <dt>
                 	<span>会员中心</span>
                 	<i></i>
                 </dt>
-                <dd><a href="personal_info.html">我的顾问</a></dd>
-                <dd><a href="act_safe.html">个人信息</a></dd>
+                <dd><a href="#">我的顾问</a></dd>
+                <dd><a href="#">个人信息</a></dd>
             </dl>
         </div>
         <!--右边-->
@@ -41,8 +43,8 @@
         			</li>
         			<li>
         				<span>性别：</span>
-        				<input type="radio" name="sex" id="boy" value=""/><label for="boy">男</label>
-        				<input type="radio" name="sex" id="gril" value=""/><label for="gril">女</label>
+        				<input type="radio" name="sex" checked id="boy" value=""/><label for="boy">男</label>
+        				<input type="radio" name="sex" id="girl" value=""/><label for="girl">女</label>
         			</li>
         			<li class="birthday">
         				<span>生日：</span>
@@ -57,42 +59,51 @@
         				<select name="">
         					<option value="">请选择</option>
         				</select>
-        				<i>日</i>
+        				<i class="no">日</i>
         			</li>
-        			<li>
+        			<li class="address">
         				<span>所在地区：</span>
-        				<select name="">
-        					<option value="">中国大陆</option>
-        				</select>
-        				<select name="">
-        					<option value="">选择身份</option>
-        				</select>
-        				<select name="" class="mr">
-        					<option value="">选择城市</option>
-        				</select>
+        				<div class="countrys" style="visibility: visible;">
+							<input name="techName" type="text" class="country" autocomplete="off" readonly  placeholder="中国大陆"/>
+							<div>
+								
+							</div>
+						</div>
+        				<div class="primarys">
+							<input name="techName" type="text" class="primary" autocomplete="off" readonly placeholder="选择省份"/>
+							<div>
+								
+							</div>
+						</div>
+						<div class="secondarys">
+							<input name="techName" type="text" class="secondary" autocomplete="off" readonly placeholder="选择城市"/>
+							<div>
+								
+							</div>
+						</div>
         			</li>
         			<li>
         				<span>详细地址：</span>
         				<input type="text" class="address"/>
         			</li>
         			<li class="identity clearfix">
-        				<span>您的身份： </span>
+        				<span>哪些身份适合您： </span>
         				<dl>
-        					<dd><input type="checkbox"  id="" value=""/><label for="">企业所有者</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">企业管理人员</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">个体工商户</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">知识产权权利人</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">知识产权研究者</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">业余爱好者</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">学生</label></dd>
-	        				<dd><input type="checkbox"  id="" value=""/><label for="">其他</label></dd>
+        					<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>企业所有者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>企业管理人员</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>个体工商户</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>知识产权权利人</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>知识产权研究者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>业余爱好者</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>学生</label></dd>
+	        				<dd><input type="checkbox"  id="" value=""/><label for=""><b></b>其他</label></dd>
         				</dl>
         			</li>
-        			<li class="no">
+        			<li class="no attention">
         				<span>您的关注： </span>
-        				<input type="checkbox"  id="" value=""/><label for="">商标  </label>
-        				<input type="checkbox"  id="" value=""/><label for="">专利</label>
-        				<input type="checkbox"  id="" value=""/><label for="">版权</label>
+        				<input type="checkbox"  id="" value=""/><label for=""><b></b>商标  </label>
+        				<input type="checkbox"  id="" value=""/><label for=""><b></b>专利</label>
+        				<input type="checkbox"  id="" value=""/><label for=""><b></b>版权</label>
         			</li>
         		</ul>
         		<div class="submit_wrap">
@@ -104,4 +115,3 @@
     </div>
 </body>
 </html>
-<script src="js/jquery-1.11.3.min.js"></script>

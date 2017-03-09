@@ -16,7 +16,7 @@
 }
 .pageNumber a:hover {
 	text-decoration: none;
-	border: 1px solid #cb1c1d;
+	border: 1px solid #ff3300;
 }
 .pageNumber span.current {
 	display: inline-block;
@@ -24,11 +24,11 @@
 	/* width:28px;
 	height:28px; */
 	margin-left:3px;
-	border: 1px solid #cb1c1d;
+	border: 1px solid #ff3300;
 	text-align: center;
 	/* line-height: 28px; */
 	text-align:center;
-	background: #cb1c1d;
+	background: #ff3300;
 	color: #fff;
 }
 .pageNumber a.prevPage,.pageNumber a.nextPage{
@@ -41,7 +41,7 @@
 	/* line-height: 28px; */
 	background: #cb1c1d;
 	color: #fff;
-	border: 1px solid #cb1c1d;
+	border: 1px solid #ff3300;
 }
 .pageNumber span.disabled {
 	display: inline-block;
@@ -65,7 +65,7 @@
 .queNumber{
 	/* width:53px;
 	height:35px; */
-	background: #cb1c1d;
+	background: #ff3300;
 	margin-left: 10px;
 	color: #fff;
 }
@@ -76,7 +76,7 @@
 .page_go .true{
 	/* width:64px;
 	height:28px; */
-	border:1px solid #cb1c1d;
+	border:1px solid #ff3300;
 }
 .ellipsis{
 	display:inline-block;

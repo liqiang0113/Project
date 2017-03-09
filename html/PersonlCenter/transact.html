@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="../../css/person-left.css">
 
     <link rel="stylesheet" type="text/css" href="../../css/transact.css">
+    <link rel="stylesheet" type="text/css" href="../../css/page.css"/>
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/page.js"></script>
 </head>
 <body>
 <div class="transact-content area12">
@@ -65,10 +68,31 @@
             </div>
         </div>
         <div class="tr-bot"></div>
+        <div class="pageNumber"></div>
     </div>
     <div class="tr-right">
 
     </div>
 </div>
+<script type="text/javascript">
+	$(function(){
+		var pageCount = "${pageInfo.pages}";
+		if(Number(pageCount)>100){
+			pageCount=100;
+		}
+		var current = "${pageInfo.pageNum}";
+		$(".pageNumber").createPage({
+	        pageCount:Number(pageCount),//总页数
+	        current:Number(current),		//当前页
+	        backFn:function(p){
+	            //p是跳转后的页码  （回调函数）
+	            $("#pageNum").val(p);
+	            var frm = document.getElementById("query-from");
+	        	frm.action="${src}/tech/techInfoList.html";
+	        	frm.submit();
+	        }
+  		});
+	})
+</script>
 </body>
 </html>
