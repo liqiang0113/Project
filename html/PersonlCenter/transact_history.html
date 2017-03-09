@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业务办理历史</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/person-left.css">
+
+    <link rel="stylesheet" type="text/css" href="../../css/transact.css">
+    <link rel="stylesheet" type="text/css" href="../../css/page.css"/>
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/page.js"></script>
+</head>
+<body>
+<div class="transact-content area12">
+    <div class="tr-left">
+
+    </div>
+    <div class="tr-middle">
+        <div class="tr-top his-tr-top">
+            <p class="p1">
+                电子申请案卷编号： <input type="text" placeholder="请输入9位数字编码"/> 内部编码：
+                <input type="text" placeholder="请输入自定义编码"/> 专利名称： <input type="text" placeholder="支持模糊查询"/>
+            </p>
+
+            <p class="p3 his-p3">
+                <span class="s1 ">查询</span>
+            </p>
+        </div>
+        <div class="tr-mid his-un-tr-mid un-tr-mid">
+            <p class="p1">
+                <span class="s1">办理中的业务</span> <span class="s2">未提交的业务</span> <span class="s2 und">业务办理历史</span>
+                <span class="un-add"><img src="../../imgs/T/T-unadd.png" alt="">添加新申请</span>
+            </p>
+            <div class="un-p2 his-un-p2">
+                <div class="un1">
+                    <ul>
+                        <li class="li0">电子申请案卷编号</li>
+                        <li class="li1">内部编码</li>
+                        <li class="li2">专利名称</li>
+                        <li class="li3">添加时间</li>
+                        <li class="li4">最后修改时间</li>
+                        <li class="li5">操作</li>
+                    </ul>
+                </div>
+                <div class="un2">
+                    <ul>
+                        <li class="li0">158744444</li>
+                        <li  class="li1">HG20170105004</li>
+                        <li  class="li2">
+                            一种具有多种佩戴方式的戒指 </li>
+                        <li  class="li3">2017-2-10
+                            15:52:03</li>
+                        <li  class="li4">2017-2-10
+                            15:52:03</li>
+                        <li class="li5">
+                            <span class="s1">查看</span>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="un3"> <ul>
+                    <li class="li0">158744444</li>
+                    <li  class="li1">HG20170105004</li>
+                    <li  class="li2">
+                     一种具有多种佩戴方式的戒指 </li>
+                    <li  class="li3">2017-2-10
+                        15:52:03</li>
+                    <li  class="li4">2017-2-10
+                        15:52:03</li>
+                    <li class="li5">
+                        <span class="s1">查看</span>
+
+                    </li>
+                </ul></div>
+
+            </div>
+        </div>
+
+        <div class="tr-bot"></div>
+        <div class="pageNumber"></div>
+    </div>
+    <div class="tr-right">
+
+    </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var pageCount = "${pageInfo.pages}";
+		if(Number(pageCount)>100){
+			pageCount=100;
+		}
+		var current = "${pageInfo.pageNum}";
+		$(".pageNumber").createPage({
+	        pageCount:Number(pageCount),//总页数
+	        current:Number(current),		//当前页
+	        backFn:function(p){
+	            //p是跳转后的页码  （回调函数）
+	            $("#pageNum").val(p);
+	            var frm = document.getElementById("query-from");
+	        	frm.action="${src}/tech/techInfoList.html";
+	        	frm.submit();
+	        }
+  		});
+	})
+</script>
+</body>
+</html>
