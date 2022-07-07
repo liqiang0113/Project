@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T03:11:41.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qGkkfzAseu2JQUkrE1Uj" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-07T03:29:27.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y3U9SoacOWigABhoA4i5" version="20.0.4" type="github" pages="2">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,16 +197,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sIgTFmCxImB9DaH76uzb-1" value="POI管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sIgTFmCxImB9DaH76uzb-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sIgTFmCxImB9DaH76uzb-2" target="sIgTFmCxImB9DaH76uzb-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sIgTFmCxImB9DaH76uzb-2" value="列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="376" y="120" width="76" height="30" as="geometry" />
+          <mxGeometry x="32" y="130" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sIgTFmCxImB9DaH76uzb-4" value="POI数据服务接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="215" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4T6lsJXHv8EBlXpnyoT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b4T6lsJXHv8EBlXpnyoT-1" target="b4T6lsJXHv8EBlXpnyoT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4T6lsJXHv8EBlXpnyoT-1" value="POI查询详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4T6lsJXHv8EBlXpnyoT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b4T6lsJXHv8EBlXpnyoT-2" target="b4T6lsJXHv8EBlXpnyoT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4T6lsJXHv8EBlXpnyoT-2" value="当前POI下所有SPU列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="130" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b4T6lsJXHv8EBlXpnyoT-4" value="product-service数据服务接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="225" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
