@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T06:01:01.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KT2_w9uru6r8OhDo1o6L" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:50:14.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9TtG8R4T1YD9a5tOQOs6" version="20.0.4" type="github" pages="2">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1237" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CkbHBRKq70D783ghkJrN-62" value="已关联商品数？" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;fillColor=none;fontColor=#FFFFCC;verticalAlign=middle;" vertex="1" parent="CkbHBRKq70D783ghkJrN-59">
+        <mxCell id="CkbHBRKq70D783ghkJrN-62" value="已关联商品数&lt;br&gt;审核通过发布时校验发布态的是否存在数据，不存在则关联的商品数加一，商品下架关联商品数减一" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;fillColor=none;fontColor=#FFFFCC;verticalAlign=middle;" vertex="1" parent="CkbHBRKq70D783ghkJrN-59">
           <mxGeometry x="270" width="200" height="40" as="geometry">
             <mxRectangle width="200" height="40" as="alternateBounds" />
           </mxGeometry>
