@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T11:50:36.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="popg0MaOyOsmNjBxu8ck" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-08T11:51:37.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7JH0A5FuMHzpgwqH3Y3n" version="20.0.4" type="github" pages="2">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1115,7 +1115,7 @@
         <mxCell id="_tbSyWdDucekwP6FnjD5-5" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=11;strokeColor=#0F8B8D;strokeWidth=10;fontColor=#143642;" parent="AzKsU7Ix5AeF6kMIIP9y-1" vertex="1">
           <mxGeometry y="510" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_tbSyWdDucekwP6FnjD5-6" value="ticket_data" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeColor=#0F8B8D;strokeWidth=10;fontColor=#143642;" parent="_tbSyWdDucekwP6FnjD5-5" vertex="1">
+        <mxCell id="_tbSyWdDucekwP6FnjD5-6" value="sort_ticket_data" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=12;strokeColor=#0F8B8D;strokeWidth=10;fontColor=#143642;" parent="_tbSyWdDucekwP6FnjD5-5" vertex="1">
           <mxGeometry width="127" height="80" as="geometry">
             <mxRectangle width="127" height="80" as="alternateBounds" />
           </mxGeometry>
