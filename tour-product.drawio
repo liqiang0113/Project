@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T05:45:13.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fXrOAjKnU-JteLPlj49k" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-08T05:47:21.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="k9CT1GD0--BloQhaBLE7" version="20.0.4" type="github" pages="2">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1237" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -539,7 +539,7 @@
         <mxCell id="O6aA8RzF7tFakSYpJ9wT-5" value="SPU查看" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="455" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AzKsU7Ix5AeF6kMIIP9y-1" value="product_spu-poi_ticket (spu和poi 与票种的关系表)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=11;strokeColor=#2BFF6B;strokeWidth=10;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="AzKsU7Ix5AeF6kMIIP9y-1" value="product_spu-poi_ticket (spu和poi 与票种的关系表)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=11;strokeColor=#2BFF6B;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="50" width="380" height="710" as="geometry" />
         </mxCell>
         <mxCell id="AzKsU7Ix5AeF6kMIIP9y-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;sketch=0;fontFamily=Helvetica;fontSize=11;strokeColor=#FFCCE6;strokeWidth=10;" vertex="1" parent="AzKsU7Ix5AeF6kMIIP9y-1">
