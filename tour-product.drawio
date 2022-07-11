@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:14:08.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CmQ3DRb7EC_2ctnySAgV" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:48:00.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="b6jNKaN3xFZuGPEeNy2U" version="20.0.4" type="github" pages="3">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1609" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1304,7 +1304,7 @@
             <mxRectangle width="110" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dd2RluhknbnZgQnY1jaK-30" value="ticket_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF3399;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-28">
+        <mxCell id="dd2RluhknbnZgQnY1jaK-30" value="ticket_type_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF3399;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-28">
           <mxGeometry x="110" width="280" height="100" as="geometry">
             <mxRectangle width="280" height="100" as="alternateBounds" />
           </mxGeometry>
@@ -1410,7 +1410,7 @@
             <mxRectangle width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZlqgzDywr5rpAZtRwF7-7" value="ticket_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-5">
+        <mxCell id="zZlqgzDywr5rpAZtRwF7-7" value="ticket_type_code" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-5">
           <mxGeometry x="90" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
