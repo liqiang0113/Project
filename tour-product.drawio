@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T09:52:36.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QZMT0MIw4-wCjTUYTsJx" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-11T09:53:11.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="O43y4xK06XKqnAKgtF7L" version="20.0.4" type="github" pages="3">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1609" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1707,7 +1707,7 @@
           <mxGeometry x="-350" y="520" width="349" height="214.11" as="geometry" />
         </mxCell>
         <mxCell id="nU2O0Ev7qmTaD1Ioh4CZ-6" value="添加和修改SPU存储的关系。&lt;br&gt;1、先添加product_spu_poi 关系表数据&lt;br&gt;2、在添加商品要素表数据，商品类别是3，要素类别（要素类别：1票名称即SPU一级名称，2票类型即SPU二级名称）是 1 或者 2&lt;br&gt;3、添加SPU一二级名称和票种数据的关系（数据还是添加到要素表中）&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;商品类别是3 要素类别（要素类别：17票种）是17 父级要素编号是步骤2生成的主键ID, 排序值" style="shape=note;size=20;whiteSpace=wrap;html=1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="765" width="450" height="235" as="geometry" />
+          <mxGeometry x="-350" y="765" width="350" height="235" as="geometry" />
         </mxCell>
         <mxCell id="nU2O0Ev7qmTaD1Ioh4CZ-10" value="product_spu_pois（spu和poi关系表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-799" y="530" width="359" height="190" as="geometry" />
