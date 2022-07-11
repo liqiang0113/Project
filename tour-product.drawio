@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T10:09:01.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="e338fU_vvXr1SREOWcbN" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-11T10:25:37.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="d89X_u5V0klcFyVLzCoP" version="20.0.4" type="github" pages="3">
   <diagram id="JeX9rl3rUgD13nwQGrPr" name="票种管理">
     <mxGraphModel dx="1609" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1400,7 +1400,7 @@
           <mxGeometry x="480" y="670" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zZlqgzDywr5rpAZtRwF7-1" value="product_ticket_type(票种数据表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=#FF0080;" vertex="1" parent="1">
-          <mxGeometry x="-799" y="110" width="349" height="310" as="geometry" />
+          <mxGeometry x="-799" y="100" width="349" height="280" as="geometry" />
         </mxCell>
         <mxCell id="zZlqgzDywr5rpAZtRwF7-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
           <mxGeometry y="30" width="349" height="30" as="geometry" />
@@ -1454,21 +1454,8 @@
             <mxRectangle width="259" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dd2RluhknbnZgQnY1jaK-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
-          <mxGeometry y="150" width="349" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dd2RluhknbnZgQnY1jaK-14" value="票种名称&#xa;（多语言）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-13">
-          <mxGeometry width="90" height="30" as="geometry">
-            <mxRectangle width="90" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dd2RluhknbnZgQnY1jaK-15" value="ticket_name_languages varchar(1024)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-13">
-          <mxGeometry x="90" width="259" height="30" as="geometry">
-            <mxRectangle width="259" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
-          <mxGeometry y="180" width="349" height="30" as="geometry" />
+          <mxGeometry y="150" width="349" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-11" value="商品数量" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-10">
           <mxGeometry width="90" height="30" as="geometry">
@@ -1481,7 +1468,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
-          <mxGeometry y="210" width="349" height="30" as="geometry" />
+          <mxGeometry y="180" width="349" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-8" value="排序" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-7">
           <mxGeometry width="90" height="30" as="geometry">
@@ -1494,7 +1481,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-4" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
-          <mxGeometry y="240" width="349" height="30" as="geometry" />
+          <mxGeometry y="210" width="349" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-5" value="票种来源&#xa;1_人工创建 &#xa;2_系统预设" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-4">
           <mxGeometry width="90" height="30" as="geometry">
@@ -1507,7 +1494,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#FF0080;" vertex="1" parent="zZlqgzDywr5rpAZtRwF7-1">
-          <mxGeometry y="270" width="349" height="30" as="geometry" />
+          <mxGeometry y="240" width="349" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dd2RluhknbnZgQnY1jaK-2" value="删除标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#FF0080;" vertex="1" parent="dd2RluhknbnZgQnY1jaK-1">
           <mxGeometry width="90" height="30" as="geometry">
